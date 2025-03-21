@@ -7,34 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div  class="home"> 
     <header>
-        <div class="top-container">
-         <!-- <img src="logo.jpg" height="60px" alt="">
-            <div class="vertical_seprator">
-               
-            </div>
-            <div class="head"> -->
-                <div class="logo">
-                  <a href="http://gecj.ac.in/"><img src="logo gecj.png" height="80px" width="90px" alt="GECJ Logo"></a>
-                  <a href="http://gecj.ac.in/">
-                    <pre>ENGINEERING COLLEGE JHALAWAR</pre>
-                  </a>
-                  <div class="vertical_seprator">
-               
-                  </div>
-                </div>
-            <nav>
-            <ul>
-                <li> <a href="/index.html" > Home </a> </li>
-                <li> <a href="/news.html" > News</a> </li>
-                <li> <a href="/gallery.html" > Gallery</a> </li>
-                <li> <a href="/contact.html" > Contact Us </a> </li>
-                <li> <a href="/about.html" > About </a> </li>
-            </ul>
-        </nav>
       
+      <div class="top-container">
+        <div class="logo">
+          <a href="http://gecj.ac.in/"><img src="logo gecj.png" height="80px" width="90px" alt="GECJ Logo"></a>
+          <a href="http://gecj.ac.in/">
+            <pre>ENGINEERING COLLEGE JHALAWAR</pre>
+          </a>
+          
         </div>
-    </header>
+        <div class="nav v-class h-nav">
+        <nav>
+          <div class="manu-toggle"  onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+      
+        <li> <a href="/index.html" > Home </a>  </li>
+        <li> <a href="/news.html" > News</a>   </li>
+        <li> <a href="/gallery.html" > Gallery</a> </li>
+        <li> <a href="/contact.html" > Contact Us </a></li>
+        <li> <a href="/about.html" > About </a> </li>
+    </ul>
+    <script language="javascript">
+      function toggleMenu(){
+        document.querySelector(".nav-links").classList.toggle("show");
+      }
+    </script>
+    
+     </nav>
+     </div>
+</div>
+       </header>
     <MAIN>
       <section class="Contact"><h2> Contact Us </h2> 
       <div class="FIC-Sports">
@@ -77,11 +81,11 @@
                 document.write(d);
               </script>
             </div>
-          </div>
-          <div class="footer-down">
+          
+          
             <h4>All Rights Reserved. | &copy; Engg. College, Jhalawar</h4>
             <h3 style="font-family: Poppins;">Developed By</h3>
-            <h3>Ranjeet Prajapati </h3>
+            <h3>Ranjeet Prajapati & Taniska Soni </h3>
             <h4>( Department Of Computer Science & Enigneering,Engineering College Jhalawar )</h4>
           </div>
         
